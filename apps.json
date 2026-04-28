@@ -2,14 +2,14 @@
     "Browsers": [
         ["Brave Browser", "BraveInstaller.exe", "https://laptop-updates.brave.com/latest/win64", null],
         ["Opera GX", "OperaGX.exe", "https://net.geo.opera.com/opera_gx/stable/windows", "/silent /install"],
-        ["Tor Browser", "tor-browser.exe", "https://www.torproject.org/dist/torbrowser/13.0.14/tor-browser-windows-x86_64-portable-13.0.14.exe", "/S"],
+        ["Tor Browser", "tor-browser.exe", "https://dist.torproject.org/torbrowser/13.5.29/tor-browser-windows-x86_64-portable-13.5.29.exe", "/S"],
         ["Chromium Snapshot", "Chromium_x64.zip", "https://download-chromium.appspot.com/dl/Win_x64?type=snapshots", null],
         ["Zen Browser", "zen.installer.exe", "https://github.com/zen-browser/desktop/releases/latest/download/zen.installer.exe", null]
     ],
     "Runtimes": [
         ["Visual C++ Redistributable (15-22)", "VC_redist.x64.exe", "https://aka.ms/vs/17/release/vc_redist.x64.exe", "/install /quiet /norestart"],
         [".NET Framework 4.8.1", "ndp481-web.exe", "https://go.microsoft.com/fwlink/?linkid=2203305", "/q /norestart"],
-        [".NET 8.0 Desktop Runtime", "windowsdesktop-runtime-8.x64.exe", "https://download.visualstudio.microsoft.com/download/pr/9fb9f826-b51f-4f40-8f92-74d3dcd9f493/1b24bfbf78d655f4f224ccb50a3ee4fc/windowsdesktop-runtime-8.0.4-win-x64.exe", "/install /quiet /norestart"],
+        [".NET 8.0 Desktop Runtime", "windowsdesktop-runtime-8.x64.exe", "https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe", "/install /quiet /norestart"],
         ["Java JRE 8 (Legacy)", "jre-windows-x64.exe", "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251656_7ed26d28139143f38c58992680c214a5", "/s"],
         ["Java JDK 21 (Modern)", "jdk-21_windows-x64.exe", "https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe", "/s"],
         ["Node.js", "node-x64.msi", "https://nodejs.org/dist/v20.12.2/node-v20.12.2-x64.msi", "/qn /norestart"]
@@ -36,8 +36,8 @@
         ["Bloxstrap", "Bloxstrap.exe", "https://github.com/bloxstraplabs/bloxstrap/releases/download/v2.8.6/Bloxstrap-v2.8.6.exe", null],
         ["MSI Afterburner", "MSIAfterburner.zip", "https://download.msi.com/uti_exe/vga/MSIAfterburnerInstaller466Beta5.zip?__token__=exp=", null],
         ["Logitech G Hub", "lghub_installer.exe", "https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.exe", "/S"],
-        ["Medal TV", "MedalSetup.exe", "https://cdn.medal.tv/production/candidate/electron/win32/4.2673.0/MedalSetup.exe", null],
-        ["BlueStacks 5", "BlueStacksInstaller.exe", "https://cdn3.bluestacks.com/downloads/windows/nxt/5.21.150.1024/x64/BlueStacksMicroInstaller_5.21.150.1024_native.exe", "-s"]
+        ["Medal TV", "MedalSetup.exe", "https://medal.tv/desktop/windows/download", null],
+        ["BlueStacks 5", "BlueStacksInstaller.exe", "https://cdn3.bluestacks.com/downloads/windows/nxt/bgp64_bit_download.exe", "-s"]
     ],
     "Minecraft Clients": [
         ["Lunar Client", "Lunar-Client-Installer.exe", "https://raw.githubusercontent.com/VenezzaX/VenezzaDropper/refs/heads/main/Lunar-Client-Installer.exe", "/S"],
@@ -61,7 +61,7 @@
         ["Slack", "SlackSetup.exe", "https://slack.com/ssb/download-win64", "/S"],
         ["Equicord", "Equilotl.exe", "https://github.com/Equicord/Equilotl/releases/latest/download/Equilotl.exe", "/S"],
         ["Vencord", "VencordInstaller.exe", "https://github.com/Vencord/Installer/releases/latest/download/VencordInstaller.exe", null],
-        ["Proton Mail", "ProtonMail-Desktop.exe", "https://proton.me/download/mail/windows/ProtonMail-Desktop.exe", "/S"],
+        ["Proton Mail", "ProtonMail-Desktop.exe", "https://proton.me/download/mail/windows/ProtonMail-Desktop-Setup.exe", "/S"],
         ["Iriun Webcam", "IriunWebcam.exe", "https://1758658189.rsc.cdn77.org/IriunWebcam-2.8.10.exe", "/VERYSILENT"]
     ],
     "System Tools & Networking": [
@@ -72,13 +72,13 @@
         ["Sysinternals Autoruns", "Autoruns.zip", "https://download.sysinternals.com/files/Autoruns.zip", null],
         ["Sysinternals Process Monitor", "ProcessMonitor.zip", "https://download.sysinternals.com/files/ProcessMonitor.zip", null],
         ["Sysinternals Process Explorer", "ProcessExplorer.zip", "https://download.sysinternals.com/files/ProcessExplorer.zip", null],
-        ["Wireshark", "Wireshark.exe", "https://2.na.dl.wireshark.org/win64/Wireshark-4.4.5-x64.exe", "/S"],
+        ["Wireshark", "Wireshark.exe", "https://2.na.dl.wireshark.org/win64/Wireshark-4.6.4-x64.exe", "/S"],
         ["Portmaster", "portmaster-installer.exe", "https://updates.safing.io/latest/windows_amd64/packages/portmaster-installer.exe", "/S"],
         ["Angry IP Scanner", "ipscan-setup.exe", "https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan-3.9.1-setup.exe", "/S"],
         ["Nmap", "nmap-setup.exe", "https://nmap.org/dist/nmap-7.94-setup.exe", "/S"],
         ["WireGuard", "wireguard-installer.exe", "https://download.wireguard.com/windows-client/wireguard-installer.exe", "/S"],
         ["Mullvad VPN", "MullvadVPN.exe", "https://mullvad.net/en/download/app/exe/latest", "/S"],
-        ["Proton VPN", "ProtonVPN.exe", "https://protonvpn.com/download/ProtonVPN_v3.4.1.exe", "/S"],
+        ["Proton VPN", "ProtonVPN.exe", "https://protonvpn.com/download/ProtonVPN_win_latest.exe", "/S"],
         ["AnyDesk", "AnyDesk.exe", "https://download.anydesk.com/AnyDesk.exe", "--silent"],
         ["UltraVNC", "UltraVNC_Setup.exe", "https://www.uvnc.eu/download/1436/UltraVNC_1_4_3_6_X64_Setup.exe", "/VERYSILENT"],
         ["Parsec", "parsec-windows.exe", "https://builds.parsec.app/package/parsec-windows.exe", "/S"],
@@ -89,11 +89,11 @@
         ["Rufus", "rufus.exe", "https://github.com/pbatard/rufus/releases/download/v4.5/rufus-4.5.exe", null],
         ["Ventoy", "ventoy-windows.zip", "https://github.com/ventoy/Ventoy/releases/download/v1.1.09/ventoy-1.1.09-windows.zip", null],
         ["ImgBurn", "SetupImgBurn.exe", "https://download.imgburn.com/SetupImgBurn_2.5.8.0.exe", "/S"],
-        ["TestDisk", "testdisk.zip", "https://www.cgsecurity.org/testdisk-7.2-WIP.win64.zip", null],
+        ["TestDisk", "testdisk.zip", "https://www.cgsecurity.org/testdisk-7.2.win64.zip", null],
         ["WizFile", "wizfile_setup.exe", "https://antibody-software.com/files/wizfile_setup.exe", "/VERYSILENT"],
-        ["Filetree", "filetree.exe", "https://github.com/filetree/filetree/releases/latest", null],
-        ["Oracle VirtualBox", "VirtualBox.exe", "https://download.virtualbox.org/virtualbox/7.0.14/VirtualBox-7.0.14-161095-Win.exe", "--silent"],
+        ["Filetree", "filetree.exe", "https://github.com/filetree/filetree/releases/latest/download/filetree.exe", null],
         ["VMware Workstation", "VMware-workstation.exe", "https://download3.vmware.com/software/WKST-1751-WIN/VMware-workstation-full-17.5.1-23298084.exe", "/s /v\"/qn\""],
+        ["Oracle VirtualBox", "VirtualBox.exe", "https://download.virtualbox.org/virtualbox/7.0.14/VirtualBox-7.0.14-161095-Win.exe", "--silent"],
         ["Revo Uninstaller", "revosetup.exe", "https://www.revouninstaller.com/download/revosetup.exe", "/VERYSILENT"],
         ["MalwareBytes", "mb5_offline.exe", "https://downloads.malwarebytes.com/file/mb5_offline", "/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART"],
         ["WinRAR", "winrar-x64.exe", "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-701.exe", "/S"],
