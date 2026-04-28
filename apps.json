@@ -1,0 +1,112 @@
+{
+    "Browsers": [
+        ["Brave Browser", "BraveInstaller.exe", "https://laptop-updates.brave.com/latest/win64", null],
+        ["Opera GX", "OperaGX.exe", "https://net.geo.opera.com/opera_gx/stable/windows", "/silent /install"],
+        ["Tor Browser", "tor-browser.exe", "https://www.torproject.org/dist/torbrowser/13.0.14/tor-browser-windows-x86_64-portable-13.0.14.exe", "/S"],
+        ["Chromium Snapshot", "Chromium_x64.zip", "https://download-chromium.appspot.com/dl/Win_x64?type=snapshots", null],
+        ["Zen Browser", "zen.installer.exe", "https://github.com/zen-browser/desktop/releases/latest/download/zen.installer.exe", null]
+    ],
+    "Runtimes": [
+        ["Visual C++ Redistributable (15-22)", "VC_redist.x64.exe", "https://aka.ms/vs/17/release/vc_redist.x64.exe", "/install /quiet /norestart"],
+        [".NET Framework 4.8.1", "ndp481-web.exe", "https://go.microsoft.com/fwlink/?linkid=2203305", "/q /norestart"],
+        [".NET 8.0 Desktop Runtime", "windowsdesktop-runtime-8.x64.exe", "https://download.visualstudio.microsoft.com/download/pr/9fb9f826-b51f-4f40-8f92-74d3dcd9f493/1b24bfbf78d655f4f224ccb50a3ee4fc/windowsdesktop-runtime-8.0.4-win-x64.exe", "/install /quiet /norestart"],
+        ["Java JRE 8 (Legacy)", "jre-windows-x64.exe", "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251656_7ed26d28139143f38c58992680c214a5", "/s"],
+        ["Java JDK 21 (Modern)", "jdk-21_windows-x64.exe", "https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe", "/s"],
+        ["Node.js", "node-x64.msi", "https://nodejs.org/dist/v20.12.2/node-v20.12.2-x64.msi", "/qn /norestart"]
+    ],
+    "Development & IT": [
+        ["VS Code", "VSCode.exe", "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user", "/VERYSILENT /MERGETASKS=!runcode"],
+        ["VS Codium", "VSCodiumSetup.exe", "https://github.com/VSCodium/vscodium/releases/latest", "/VERYSILENT"],
+        ["Visual Studio 2022 Community", "VS2022_Community.exe", "https://aka.ms/vs/17/release/vs_community.exe", "--quiet --norestart"],
+        ["Visual Studio 2026 Community", "VS2026_Community.exe", "https://aka.ms/vs/18/release/vs_community.exe", "--quiet --norestart"],
+        ["Notepad++", "NotepadPlus.exe", "https://raw.githubusercontent.com/VenezzaX/VenezzaDropper/refs/heads/main/npp.8.7.8.Installer.x64.exe", "/S"],
+        ["GitHub Desktop", "GitHubDesktopSetup.exe", "https://desktop.githubusercontent.com/releases/3.4.18-19c76e1d/GitHubDesktopSetup-x64.exe", "--silent"],
+        ["Git for Windows", "Git-64-bit.exe", "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe", "/VERYSILENT /NORESTART"],
+        ["Windows Terminal", "WindowsTerminal.msixbundle", "https://github.com/microsoft/terminal/releases/latest", null],
+        ["JetBrains Toolbox", "jetbrains-toolbox.exe", "https://download.jetbrains.com/toolbox/jetbrains-toolbox-2.3.0.30876.exe", "/S"],
+        ["Claude Desktop App", "Claude-Setup.exe", "https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/Claude-Setup-x64.exe", "/S"],
+        ["Claude Code (CLI)", "claude-code-install.cmd", "https://claude.ai/install.cmd", null]
+    ],
+    "Game Utilities & Launchers": [
+        ["Steam", "SteamSetup.exe", "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe", "/S"],
+        ["Epic Games", "EpicInstaller.msi", "https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi", "/qn"],
+        ["EA App", "EAappInstaller.exe", "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe", "/q"],
+        ["Itch.io", "itch-setup.exe", "https://itch.io/app/download?platform=windows", null],
+        ["NVIDIA App Beta", "NVIDIA_app_beta.exe", "https://us.download.nvidia.com/nvapp/client/11.0.3.213/NVIDIA_app_beta_v11.0.3.213.exe", "-s"],
+        ["Bloxstrap", "Bloxstrap.exe", "https://github.com/bloxstraplabs/bloxstrap/releases/download/v2.8.6/Bloxstrap-v2.8.6.exe", null],
+        ["MSI Afterburner", "MSIAfterburner.zip", "https://download.msi.com/uti_exe/vga/MSIAfterburnerInstaller466Beta5.zip?__token__=exp=", null],
+        ["Logitech G Hub", "lghub_installer.exe", "https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.exe", "/S"],
+        ["Medal TV", "MedalSetup.exe", "https://cdn.medal.tv/production/candidate/electron/win32/4.2673.0/MedalSetup.exe", null],
+        ["BlueStacks 5", "BlueStacksInstaller.exe", "https://cdn3.bluestacks.com/downloads/windows/nxt/5.21.150.1024/x64/BlueStacksMicroInstaller_5.21.150.1024_native.exe", "-s"]
+    ],
+    "Minecraft Clients": [
+        ["Lunar Client", "Lunar-Client-Installer.exe", "https://raw.githubusercontent.com/VenezzaX/VenezzaDropper/refs/heads/main/Lunar-Client-Installer.exe", "/S"],
+        ["Badlion Client", "Badlion-Client.exe", "https://www.badlion.net/download/client/latest/windows-backup", "/S"],
+        ["Prism Launcher", "PrismLauncher-Setup.exe", "https://github.com/PrismLauncher/PrismLauncher/releases/latest", "/S"],
+        ["Modrinth App", "Modrinth_App_setup.exe", "https://raw.githubusercontent.com/VenezzaX/VenezzaDropper/refs/heads/main/Modrinth_App_0.9.3_x64-setup.exe", "/S"],
+        ["CurseForge", "CurseForge-Installer.exe", "https://github.com/VenezzaX/VenezzaDropper/raw/refs/heads/main/CurseForge-Installer.exe", "/S"],
+        ["Minecraft Default", "MinecraftInstaller.exe", "https://launcher.mojang.com/download/MinecraftInstaller.exe?ref=mcnet", null]
+    ],
+    "Media & Communication": [
+        ["Spotify", "SpotifySetup.exe", "https://download.scdn.co/SpotifySetup.exe", "/S"],
+        ["VLC Media Player", "vlc-win64.exe", "https://get.videolan.org/vlc/3.0.21/win64/vlc-3.0.21-win64.exe", "/S"],
+        ["Audacity", "audacity-win-64bit.exe", "https://github.com/audacity/audacity/releases/download/Audacity-3.7.3/audacity-win-3.7.3-64bit.exe", "/VERYSILENT"],
+        ["OBS Studio", "OBS-Studio-Windows-Installer.exe", "https://github.com/obsproject/obs-studio/releases/download/31.0.3/OBS-Studio-31.0.3-Windows-Installer.exe", "/S"],
+        ["GIMP", "gimp-setup.exe", "https://download.gimp.org/gimp/v2.10/windows/gimp-2.10.38-setup.exe", "/VERYSILENT /NORESTART"],
+        ["FFmpeg", "ffmpeg-master.zip", "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip", null],
+        ["Yt-dlp", "yt-dlp.exe", "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe", null],
+        ["Voicemod", "Voicemod.exe", "https://raw.githubusercontent.com/VenezzaX/VenezzaDropper/refs/heads/main/VoicemodInstaller_1.3.3-niwcta.exe", "/VERYSILENT"],
+        ["Discord", "DiscordSetup.exe", "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64", null],
+        ["WhatsApp", "WhatsApp-Installer.exe", "https://get.microsoft.com/installer/download/9NKSQGP7F2NH", null],
+        ["Slack", "SlackSetup.exe", "https://slack.com/ssb/download-win64", "/S"],
+        ["Equicord", "Equilotl.exe", "https://github.com/Equicord/Equilotl/releases/latest/download/Equilotl.exe", "/S"],
+        ["Vencord", "VencordInstaller.exe", "https://github.com/Vencord/Installer/releases/latest/download/VencordInstaller.exe", null],
+        ["Proton Mail", "ProtonMail-Desktop.exe", "https://proton.me/download/mail/windows/ProtonMail-Desktop.exe", "/S"],
+        ["Iriun Webcam", "IriunWebcam.exe", "https://1758658189.rsc.cdn77.org/IriunWebcam-2.8.10.exe", "/VERYSILENT"]
+    ],
+    "System Tools & Networking": [
+        ["CPU-Z", "cpu-z.exe", "https://download.cpuid.com/cpu-z/cpu-z_2.15-en.exe", "/VERYSILENT"],
+        ["GPU-Z", "GPU-Z.exe", "https://www.techpowerup.com/download/techpowerup-gpu-z/", null],
+        ["HWMonitor", "hwmonitor.exe", "https://download.cpuid.com/hwmonitor/hwmonitor_1.52.exe", "/VERYSILENT"],
+        ["CrystalDiskInfo Aoi", "CrystalDiskInfo_Aoi.exe", "https://sourceforge.net/projects/crystaldiskinfo/files/9.8.0/CrystalDiskInfo9_8_0Aoi.exe/download", "/VERYSILENT"],
+        ["Sysinternals Autoruns", "Autoruns.zip", "https://download.sysinternals.com/files/Autoruns.zip", null],
+        ["Sysinternals Process Monitor", "ProcessMonitor.zip", "https://download.sysinternals.com/files/ProcessMonitor.zip", null],
+        ["Sysinternals Process Explorer", "ProcessExplorer.zip", "https://download.sysinternals.com/files/ProcessExplorer.zip", null],
+        ["Wireshark", "Wireshark.exe", "https://2.na.dl.wireshark.org/win64/Wireshark-4.4.5-x64.exe", "/S"],
+        ["Portmaster", "portmaster-installer.exe", "https://updates.safing.io/latest/windows_amd64/packages/portmaster-installer.exe", "/S"],
+        ["Angry IP Scanner", "ipscan-setup.exe", "https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan-3.9.1-setup.exe", "/S"],
+        ["Nmap", "nmap-setup.exe", "https://nmap.org/dist/nmap-7.94-setup.exe", "/S"],
+        ["WireGuard", "wireguard-installer.exe", "https://download.wireguard.com/windows-client/wireguard-installer.exe", "/S"],
+        ["Mullvad VPN", "MullvadVPN.exe", "https://mullvad.net/en/download/app/exe/latest", "/S"],
+        ["Proton VPN", "ProtonVPN.exe", "https://protonvpn.com/download/ProtonVPN_v3.4.1.exe", "/S"],
+        ["AnyDesk", "AnyDesk.exe", "https://download.anydesk.com/AnyDesk.exe", "--silent"],
+        ["UltraVNC", "UltraVNC_Setup.exe", "https://www.uvnc.eu/download/1436/UltraVNC_1_4_3_6_X64_Setup.exe", "/VERYSILENT"],
+        ["Parsec", "parsec-windows.exe", "https://builds.parsec.app/package/parsec-windows.exe", "/S"],
+        ["Scrcpy", "scrcpy.zip", "https://raw.githubusercontent.com/VenezzaX/VenezzaDropper/refs/heads/main/scrcpy-win64-v3.1.zip", null]
+    ],
+    "Utilities & Disk Tools": [
+        ["AutoHotkey 1.0", "ahk-install.exe", "https://www.autohotkey.com/download/ahk-install.exe", "/S"],
+        ["Rufus", "rufus.exe", "https://github.com/pbatard/rufus/releases/download/v4.5/rufus-4.5.exe", null],
+        ["Ventoy", "ventoy-windows.zip", "https://github.com/ventoy/Ventoy/releases/download/v1.1.09/ventoy-1.1.09-windows.zip", null],
+        ["ImgBurn", "SetupImgBurn.exe", "https://download.imgburn.com/SetupImgBurn_2.5.8.0.exe", "/S"],
+        ["TestDisk", "testdisk.zip", "https://www.cgsecurity.org/testdisk-7.2-WIP.win64.zip", null],
+        ["WizFile", "wizfile_setup.exe", "https://antibody-software.com/files/wizfile_setup.exe", "/VERYSILENT"],
+        ["Filetree", "filetree.exe", "https://github.com/filetree/filetree/releases/latest", null],
+        ["Oracle VirtualBox", "VirtualBox.exe", "https://download.virtualbox.org/virtualbox/7.0.14/VirtualBox-7.0.14-161095-Win.exe", "--silent"],
+        ["VMware Workstation", "VMware-workstation.exe", "https://download3.vmware.com/software/WKST-1751-WIN/VMware-workstation-full-17.5.1-23298084.exe", "/s /v\"/qn\""],
+        ["Revo Uninstaller", "revosetup.exe", "https://www.revouninstaller.com/download/revosetup.exe", "/VERYSILENT"],
+        ["MalwareBytes", "mb5_offline.exe", "https://downloads.malwarebytes.com/file/mb5_offline", "/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART"],
+        ["WinRAR", "winrar-x64.exe", "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-701.exe", "/S"],
+        ["7-Zip", "7z-x64.exe", "https://raw.githubusercontent.com/VenezzaX/VenezzaDropper/refs/heads/main/7z2409-x64.exe", "/S"],
+        ["Paint.net", "paint.net.portable.zip", "https://github.com/VenezzaX/VenezzaDropper/raw/refs/heads/main/paint.net.5.1.6.install.anycpu.web.zip", null],
+        ["PowerToys", "PowerToysSetup.exe", "https://github.com/microsoft/PowerToys/releases/download/v0.81.0/PowerToysSetup-0.81.0-x64.exe", "--quiet"],
+        ["O&O ShutUp10", "ShutUp10.exe", "https://www.oo-software.com/download/current/ooshutup10", null],
+        ["Microsoft Store Restorer", "LTSC-Add-MicrosoftStore.zip", "https://github.com/kkkgo/LTSC-Add-MicrosoftStore/archive/refs/heads/master.zip", null]
+    ],
+    "Desktop Customization": [
+        ["Rainmeter", "Rainmeter.exe", "https://github.com/rainmeter/rainmeter/releases/download/v4.5.21.3816/Rainmeter-4.5.21.exe", "/S"],
+        ["TranslucentTB", "TranslucentTB-portable.zip", "https://github.com/TranslucentTB/TranslucentTB/releases/download/2024.4/TranslucentTB-portable-x64.zip", null],
+        ["Lively Wallpaper", "lively_setup.exe", "https://github.com/rocksdanister/lively/releases/latest", "/VERYSILENT"],
+        ["KDE Connect", "kdeconnect-windows.exe", "https://download.kde.org/stable/release-service/24.02.2/windows/kdeconnect-kde-24.02.2-windows-msvc2019_64-cl.exe", "/S"]
+    ]
+}
