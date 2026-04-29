@@ -80,7 +80,7 @@
         ["Mullvad VPN", "MullvadVPN.exe", "https://mullvad.net/en/download/app/exe/latest", "/S"],
         ["Proton VPN", "ProtonVPN.exe", "https://protonvpn.com/download/ProtonVPN_win_latest.exe", "/S"],
         ["AnyDesk", "AnyDesk.exe", "https://download.anydesk.com/AnyDesk.exe", "--silent"],
-        ["UltraVNC", "uvnc.UltraVNC", "WINGET", null]
+        ["UltraVNC", "uvnc.UltraVNC", "WINGET", null],
         ["Parsec", "parsec-windows.exe", "https://builds.parsec.app/package/parsec-windows.exe", "/S"],
         ["Scrcpy", "scrcpy.zip", "https://raw.githubusercontent.com/VenezzaX/VenezzaDropper/refs/heads/main/scrcpy-win64-v3.1.zip", null]
     ],
