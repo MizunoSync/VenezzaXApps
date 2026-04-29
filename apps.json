@@ -2,7 +2,7 @@
     "Browsers": [
         ["Brave Browser", "BraveInstaller.exe", "https://laptop-updates.brave.com/latest/win64", null],
         ["Opera GX", "OperaGX.exe", "https://net.geo.opera.com/opera_gx/stable/windows", "/silent /install"],
-        ["Tor Browser", "tor-browser.exe", "https://dist.torproject.org/torbrowser/13.5.29/tor-browser-windows-x86_64-portable-13.5.29.exe", "/S"],
+        ["Tor Browser", "TorProject.TorBrowser", "WINGET", null],
         ["Chromium Snapshot", "Chromium_x64.zip", "https://download-chromium.appspot.com/dl/Win_x64?type=snapshots", null],
         ["Zen Browser", "zen.installer.exe", "https://github.com/zen-browser/desktop/releases/latest/download/zen.installer.exe", null]
     ],
@@ -37,7 +37,7 @@
         ["MSI Afterburner", "MSIAfterburner.zip", "https://download.msi.com/uti_exe/vga/MSIAfterburnerInstaller466Beta5.zip?__token__=exp=", null],
         ["Logitech G Hub", "lghub_installer.exe", "https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.exe", "/S"],
         ["Medal TV", "MedalSetup.exe", "https://medal.tv/desktop/windows/download", null],
-        ["BlueStacks 5", "BlueStacksInstaller.exe", "https://cdn3.bluestacks.com/downloads/windows/nxt/bgp64_bit_download.exe", "-s"]
+        ["BlueStacks 5", "BlueStacks.BlueStacks", "WINGET", null]
     ],
     "Minecraft Clients": [
         ["Lunar Client", "Lunar-Client-Installer.exe", "https://raw.githubusercontent.com/VenezzaX/VenezzaDropper/refs/heads/main/Lunar-Client-Installer.exe", "/S"],
@@ -52,7 +52,7 @@
         ["VLC Media Player", "vlc-win64.exe", "https://get.videolan.org/vlc/3.0.21/win64/vlc-3.0.21-win64.exe", "/S"],
         ["Audacity", "audacity-win-64bit.exe", "https://github.com/audacity/audacity/releases/download/Audacity-3.7.3/audacity-win-3.7.3-64bit.exe", "/VERYSILENT"],
         ["OBS Studio", "OBS-Studio-Windows-Installer.exe", "https://github.com/obsproject/obs-studio/releases/download/31.0.3/OBS-Studio-31.0.3-Windows-Installer.exe", "/S"],
-        ["GIMP", "gimp-setup.exe", "https://download.gimp.org/gimp/v2.10/windows/gimp-2.10.38-setup.exe", "/VERYSILENT /NORESTART"],
+        ["GIMP", "GIMP.GIMP", "WINGET", null],
         ["FFmpeg", "ffmpeg-master.zip", "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip", null],
         ["Yt-dlp", "yt-dlp.exe", "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe", null],
         ["Voicemod", "Voicemod.exe", "https://raw.githubusercontent.com/VenezzaX/VenezzaDropper/refs/heads/main/VoicemodInstaller_1.3.3-niwcta.exe", "/VERYSILENT"],
@@ -61,8 +61,8 @@
         ["Slack", "SlackSetup.exe", "https://slack.com/ssb/download-win64", "/S"],
         ["Equicord", "Equilotl.exe", "https://github.com/Equicord/Equilotl/releases/latest/download/Equilotl.exe", "/S"],
         ["Vencord", "VencordInstaller.exe", "https://github.com/Vencord/Installer/releases/latest/download/VencordInstaller.exe", null],
-        ["Proton Mail", "ProtonMail-Desktop.exe", "https://proton.me/download/mail/windows/ProtonMail-Desktop-Setup.exe", "/S"],
-        ["Iriun Webcam", "IriunWebcam.exe", "https://1758658189.rsc.cdn77.org/IriunWebcam-2.8.10.exe", "/VERYSILENT"]
+        ["Proton Mail", "Proton.ProtonMail", "WINGET", null],
+        ["Iriun Webcam", "Iriun.IriunWebcam", "WINGET", null]
     ],
     "System Tools & Networking": [
         ["CPU-Z", "cpu-z.exe", "https://download.cpuid.com/cpu-z/cpu-z_2.15-en.exe", "/VERYSILENT"],
@@ -80,7 +80,7 @@
         ["Mullvad VPN", "MullvadVPN.exe", "https://mullvad.net/en/download/app/exe/latest", "/S"],
         ["Proton VPN", "ProtonVPN.exe", "https://protonvpn.com/download/ProtonVPN_win_latest.exe", "/S"],
         ["AnyDesk", "AnyDesk.exe", "https://download.anydesk.com/AnyDesk.exe", "--silent"],
-        ["UltraVNC", "UltraVNC_Setup.exe", "https://www.uvnc.eu/download/1436/UltraVNC_1_4_3_6_X64_Setup.exe", "/VERYSILENT"],
+        ["UltraVNC", "uvnc.UltraVNC", "WINGET", null]
         ["Parsec", "parsec-windows.exe", "https://builds.parsec.app/package/parsec-windows.exe", "/S"],
         ["Scrcpy", "scrcpy.zip", "https://raw.githubusercontent.com/VenezzaX/VenezzaDropper/refs/heads/main/scrcpy-win64-v3.1.zip", null]
     ],
@@ -107,6 +107,6 @@
         ["Rainmeter", "Rainmeter.exe", "https://github.com/rainmeter/rainmeter/releases/download/v4.5.21.3816/Rainmeter-4.5.21.exe", "/S"],
         ["TranslucentTB", "TranslucentTB-portable.zip", "https://github.com/TranslucentTB/TranslucentTB/releases/download/2024.4/TranslucentTB-portable-x64.zip", null],
         ["Lively Wallpaper", "lively_setup.exe", "https://github.com/rocksdanister/lively/releases/latest", "/VERYSILENT"],
-        ["KDE Connect", "kdeconnect-windows.exe", "https://download.kde.org/stable/release-service/24.02.2/windows/kdeconnect-kde-24.02.2-windows-msvc2019_64-cl.exe", "/S"]
+        ["KDE Connect", "KDE.KDEConnect", "WINGET", null]
     ]
 }
